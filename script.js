@@ -46,10 +46,9 @@ function estacion(){
 }
 
 function animal(){
-    var animal = prompt("Por favor ingressar el animal");
-    String(animal);
-    switch(true) {
-
+    var animal = prompt("Por favor ingressar el animal").toLowerCase();
+    
+    switch(true) {    
         case (animal == "perro" || animal == "gato" || animal == "elefante" ):
           alert("Es un mamífero");
           break;
@@ -62,7 +61,6 @@ function animal(){
         case (animal == "rana" || animal == "sapo"):
           alert("Es un anfibio");
           break;
-        
         default:
           alert("Tipo de animal desconocido");      
       }
@@ -71,10 +69,10 @@ function animal(){
 
 function membresia(){
     alert("Por favor ingressar cual nivel de membresia deseas informacion - bronce / plata / oro / platino ");
-    var membresia = prompt("ingressar - bronce / plata / oro / platino");
+    var membresia = prompt("ingressar - bronce / plata / oro / platino").toLowerCase();
 
     switch(true){
-        case (membresia == "bronce"):
+        case (membresia == "bronce" ):
           alert("Beneficios: Acceso limitado a contenido básico");
           break;
         case (membresia == "plata"):
