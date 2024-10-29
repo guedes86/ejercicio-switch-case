@@ -21,7 +21,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 250px;
+    gap: 100px;
 }
 
 #texto{
@@ -53,10 +53,11 @@ body {
 
 #caixas{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     width: 100vw;
+    gap: 20px;
 }
 
 #caixas div {
@@ -69,6 +70,8 @@ body {
     justify-content: center;
     align-items: center;
     box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.637) ;
+    border: 2px solid var(--color2);
+    
     
 }
 
